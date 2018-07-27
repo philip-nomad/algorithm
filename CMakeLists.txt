@@ -3,5 +3,5 @@ project(pageReplacement)
 
 set(CMAKE_C_STANDARD 11)
 
-set(SOURCE_FILES kosaraju.cpp)
+set(SOURCE_FILES etc/kosaraju.cpp)
 add_executable(pageReplacement ${SOURCE_FILES})
